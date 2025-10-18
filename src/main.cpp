@@ -76,7 +76,7 @@ int main() {
     std::string assetsPath = DIRECTORY_PATH + "/assets/";
     Sprite sprite(assetsPath + "ejemplo.png");
     sprite.setPosition(glm::vec2(200.0f, 150.0f));
-    sprite.setScale(glm::vec2(0.25f, 0.25f));
+    sprite.setScale(glm::vec2(1.0f, 1.0f));
     sprite.setColor(glm::vec4(1.0f, 1.0f, 1.0f, 1.0f));
 
     // Loop principal
